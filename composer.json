@@ -30,6 +30,23 @@
                     "reference": "master"
                 }
             }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "misfist/tni-core-functionality",
+                "version": "master",
+                "type": "wordpress-plugin",
+                "dist": {
+                    "type": "zip",
+                    "url": "https://github.com/misfist/tni-core-functionality/archive/master.zip"
+                },
+                "source": {
+                    "type": "git",
+                    "url": "https://github.com/misfist/tni-core-functionality.git",
+                    "reference": "master"
+                }
+            }
         }
     ],
     "require": {
@@ -38,7 +55,7 @@
         "wpackagist-plugin/custom-post-type-permalinks": "^2.2.0",
         "wpackagist-plugin/custom-post-type-ui": "^1.4.3",
         "wpackagist-plugin/delete-comments-by-status": "1.0.0",
-        "wpackagist-plugin/edit-flow": "0.8.2",
+        "wpackagist-plugin/edit-flow": "^0.8.2",
         "wpackagist-plugin/google-analytics-dashboard-for-wp": "^4.9.3.2",
         "wpackagist-plugin/image-widget": "^4.2.2",
         "wpackagist-plugin/intuitive-custom-post-order": "^3.0.7",
@@ -51,13 +68,14 @@
         "wpackagist-plugin/quick-pagepost-redirect-plugin": "5.1.8",
         "wpackagist-plugin/simple-trackback-validation-with-topsy-blocker": "1.2.6",
         "wpackagist-plugin/tiny-compress-images": "^2.1.0",
-        "wpackagist-plugin/user-photo": "0.9.10",
+        "wpackagist-plugin/user-photo": "^0.9.10",
         "wpackagist-plugin/metronet-profile-picture": "^1.4.3",
         "wpackagist-plugin/w3-total-cache": "^0.9.4.1",
         "wpackagist-plugin/wp-edit": "^4.0",
         "wpackagist-plugin/wp-term-authors": "^0.2.0",
         "wpackagist-plugin/wp-term-images": "^0.3.1",
-        "misfist/tni": "dev-master"
+        "misfist/tni": "dev-master",
+        "misfist/tni-core-functionality": "dev-master"
     },
     "require-dev": {
         "wpackagist-plugin/developer": ">=1.2.5",
