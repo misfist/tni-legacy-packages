@@ -71,6 +71,7 @@
         "wpackagist-plugin/user-photo": "^0.9.10",
         "wpackagist-plugin/metronet-profile-picture": "^1.4.3",
         "wpackagist-plugin/w3-total-cache": "^0.9.4.1",
+        "wpackagist-plugin/wp-chosen": "^2.1.0",
         "wpackagist-plugin/wp-edit": "^4.0",
         "wpackagist-plugin/wp-term-authors": "^0.2.0",
         "wpackagist-plugin/wp-term-images": "^0.3.1",
